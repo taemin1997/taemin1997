@@ -11,7 +11,7 @@ Spring Boot 기반 웹 서비스를 개발하며
 ## 🚀 Portfolio
 
 👉 Notion Portfolio  
-https://여기에_노션링크_넣기
+[노션링크](https://www.notion.so/taemin1997/Portfolio-c17e29314abf4b0a89b8a20d92efc03c)
 
 ---
 
