@@ -3,15 +3,15 @@
 Spring Boot 기반 웹 서비스를 개발하며  
 사용자 흐름과 데이터 구조를 고려한 **백엔드 개발**에 집중하고 있습니다.  
 
-쇼핑몰, 커뮤니티 기능을 직접 구현하며  
-실제 서비스 구조를 이해하고, **확장성과 안정성 있는 서버 설계**를 목표로 하고 있습니다.
+단순 기능 구현을 넘어서  
+**서비스 구조, 데이터 흐름, 사용자 경험까지 고려한 개발**을 지향합니다.
 
 ---
 
 ## 🚀 Portfolio
 
 👉 Notion Portfolio  
-[노션링크](https://www.notion.so/taemin1997/Portfolio-c17e29314abf4b0a89b8a20d92efc03c)
+https://taemin1997.notion.site/Backend-Developer-c17e29314abf4b0a89b8a20d92efc03c
 
 ---
 
@@ -21,7 +21,12 @@ Spring Boot 기반 웹 서비스를 개발하며
 - Java
 - Spring Boot
 - Spring Framework
+- JDBC
+- REST API 설계
+
+### Database
 - MySQL
+- Oracle
 
 ### Frontend
 - HTML
@@ -30,36 +35,56 @@ Spring Boot 기반 웹 서비스를 개발하며
 
 ### Others
 - Git / GitHub
-- REST API 설계
-- WebSocket
+- WebSocket (실시간 통신)
+- Fetch API (비동기 처리)
 
 ---
 
 ## 📂 Projects
 
-### 🛒 쇼핑몰 프로젝트
-- 상품 조회 / 장바구니 / 결제(KakaoPay) 기능 구현
-- REST API 기반 서버 설계
-- 주문 및 결제 흐름 처리 경험
+### ⏳ TimeNotion (SNS 기반 기록 & 공유 플랫폼)
+- 사용자 게시글, 댓글, 좋아요, 팔로우 기능 구현
+- **WebSocket 기반 실시간 채팅 기능 개발**
+- 사용자 문의 관리 페이지 및 Modal UI 구현
+- DB 설계를 통한 게시글 / 댓글 / 채팅 구조 구성
 
-👉 https://github.com/아이디/레포명
+👉 https://github.com/taemin1997/timenotionBack_final
 
 ---
 
-### 🌱 커뮤니티 플랫폼 (MOAMZ)
-- O2O 식료품 + 커뮤니티 기능 결합 서비스
-- 탄소 절감량 시각화 기능 구현
-- 실시간 채팅 (WebSocket)
+### 🌱 MOAMZ (O2O 커뮤니티 플랫폼)
+- 상품 조회 / 장바구니 / 결제(KakaoPay) 기능 구현
+- REST API 기반 서버 설계 및 데이터 흐름 구성
+- 탄소 절감량 시각화 기능을 통한 서비스 확장 경험
 
-👉 https://github.com/아이디/레포명
+👉 https://github.com/taemin1997/moamz
+
+---
+
+## 💡 Problem Solving Experience
+
+### WebSocket 실시간 채팅 문제 해결 경험
+
+- 실시간 채팅 구현 과정에서  
+  **메시지 전달 지연 및 연결 불안정 문제**를 경험했습니다.
+
+- 서버와 클라이언트 간 이벤트 흐름을 분석하며  
+  **메시지 송수신 구조와 세션 관리 방식**을 점검했습니다.
+
+- 로그 기반 디버깅을 통해 데이터 흐름을 추적하고  
+  문제 원인을 단계적으로 확인하며 개선을 시도했습니다.
+
+👉 이를 통해  
+실시간 통신 구조에서 **세션 관리와 이벤트 흐름 설계의 중요성**을 이해하게 되었고,  
+단순 구현이 아닌 **안정적인 구조 설계의 필요성**을 배우게 되었습니다.
 
 ---
 
 ## 📫 Contact
 
 - Email: taemin9709@gmail.com
-- GitHub: https://github.com/아이디
+- GitHub: https://github.com/taemin1997
 
 ---
 
-⭐ 꾸준히 성장하는 개발자가 되겠습니다.
+⭐ 꾸준히 학습하며 성장하는 백엔드 개발자가 되겠습니다.
