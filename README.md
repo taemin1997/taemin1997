@@ -10,9 +10,8 @@ Spring Boot 기반 웹 서비스를 개발하며
 
 ## 🚀 Portfolio
 
-👉 Notion Portfolio  
-https://taemin1997.notion.site/Backend-Developer-c17e29314abf4b0a89b8a20d92efc03c
-
+👉 
+[Notion Portfolio](https://taemin1997.notion.site/Backend-Developer-c17e29314abf4b0a89b8a20d92efc03c)
 ---
 
 ## 🛠 Tech Stack
