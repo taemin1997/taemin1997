@@ -1,107 +1,33 @@
-# 👋 안녕하세요, 백엔드 개발자 고태민입니다.
+# 고태민
 
-Spring Boot 기반 웹 서비스를 개발하며  
-사용자 흐름과 데이터 구조를 고려한 **백엔드 개발**에 집중하고 있습니다.  
+데이터·AI 직무 신입 지원 · SKN AI 캠프 35기 (2026.07 ~ 12)
 
-단순 기능 구현을 넘어서  
-**서비스 구조, 데이터 흐름, 사용자 경험까지 고려한 개발**을 지향합니다.
+- RAG 서비스의 데이터·백엔드를 맡고, 강화학습 실험을 직접 설계해 측정함
+- 판정 기준을 결과 보기 전에 정하고, 수치는 측정 조건과 함께 적음
 
----
+📁 **포트폴리오**: (GitHub Pages 주소) · [PDF 요약본](https://github.com/taemin1997/myPortfolio/blob/main/pdf/portfolio_summary.pdf)
 
-## 🚀 Portfolio
+## 대표 프로젝트
 
-👉 [Notion Portfolio](https://taemin1997.notion.site/Backend-Developer-c17e29314abf4b0a89b8a20d92efc03c)
+| 프로젝트 | 내용 | 내 역할 |
+|---|---|---|
+| [Compare Agent 2.1](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN35-FINAL-4TEAM) | 최종 팀 프로젝트 (진행 중, 12월 완료) | (직접 채우기) |
+| [Docentalk 3차 → 4차](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN35-4th-1Team) | 근거 기반 RAG 도슨트. 3차 미달 검색 지표를 4차에서 모두 통과 (팀, 45문항) | FastAPI → Django 백엔드 이식 (API 54개, 응답 스냅샷 393/393 일치), DB 설계·전환 |
+| [pokemon_rl](https://github.com/taemin1997/pokemon_rl) | 게임 이동 PPO 강화학습 개인 연구, 실험 32개 | 잊어버림 원인을 반사실 실험으로 확인 (3/3 사례), 대응 방식 두 시드 통과 |
+| [서울 상권 폐업 위험 예측](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN35-2nd-3Team) | 폐업 위험 예측 웹 앱 (팀) | DNN, DB 적재, 화면, 근거 제한 챗봇 |
 
----
+## 이전 프로젝트 (Spring Boot)
 
-## 🛠 Tech Stack
+- [TimeNotion](https://github.com/taemin1997/timenotionBack_final): SNS 기반 일상 기록 플랫폼. WebSocket 실시간 채팅, 게시글·댓글·채팅 DB 설계
+- [MOAMZ](https://github.com/taemin1997/moamz): 식료품 거래 + 커뮤니티 O2O 플랫폼. 팀장, KakaoPay 결제, 탄소 절감량 시각화
 
-### Backend
-- Java
-- Spring Boot
-- Spring Framework
-- JDBC
-- REST API
-- WebSocket
+## 기술
 
-### Database
-- Oracle
-- MySQL
+- **데이터·AI**: Python, pandas, PyTorch, Stable-Baselines3, OpenAI API, Chroma, LangGraph
+- **백엔드·DB**: Django, FastAPI, Spring Boot, MySQL / TiDB, Oracle
+- **도구**: Git, Docker, uv
 
-### Frontend
-- HTML
-- CSS
-- JavaScript
-- Fetch API
-
-### Collaboration / Tools
-- Git / GitHub
-- Notion
-- Figma
-- IntelliJ
-- VS Code
-- DBeaver
-
----
-
-## 📂 Projects
-
-### ⏳ TimeNotion
-**SNS 기반 일상 기록 및 공유 플랫폼**
-
-- 게시글, 댓글, 좋아요, 팔로우 기능 구현
-- **WebSocket 기반 실시간 채팅 기능 개발**
-- 사용자 문의 관리 페이지 및 Modal UI 구현
-- 메인 페이지 추천 콘텐츠 및 키워드 기능 구현
-- DB 설계를 통한 게시글 / 댓글 / 채팅 구조 구성
-
-**Tech**  
-Spring Boot · JDBC · Oracle DB · WebSocket · JavaScript
-
-👉 [GitHub Repository](https://github.com/taemin1997/timenotionBack_final)
-
----
-
-### 🌱 MOAMZ
-**식료품 거래와 커뮤니티 기능을 결합한 Eco O2O 플랫폼**
-
-- 상품 조회, 장바구니, 주문, **KakaoPay 결제 기능 구현**
-- REST API 기반 쇼핑몰 / 커뮤니티 / 레시피 기능 개발
-- 거래 데이터를 기반으로 **탄소 절감량 시각화 기능 구현**
-- 팀장 역할 수행 및 기능 분담 / 일정 조율 경험
-- 실제 서비스 흐름에 가까운 구매 프로세스 설계 경험
-
-**Tech**  
-Spring Boot · REST API · Oracle DB · KakaoPay API · Fetch API
-
-👉 [GitHub Repository](https://github.com/taemin1997/moamz)
-
----
-
-## 💡 Problem Solving Experience
-
-### WebSocket 실시간 채팅 문제 해결 경험
-
-실시간 채팅 구현 과정에서  
-**메시지 전달 지연 및 연결 불안정 문제**를 경험했습니다.
-
-서버와 클라이언트 간 이벤트 흐름을 분석하며  
-메시지 송수신 구조와 세션 관리 방식을 점검했고,  
-
-로그 기반 디버깅을 통해 데이터 흐름을 추적하며  
-문제 원인을 단계적으로 확인하고 개선을 시도했습니다.
-
-이를 통해  
-실시간 통신 구조에서 **세션 관리와 이벤트 흐름 설계의 중요성**을 이해하게 되었고,  
-단순 구현이 아닌 **안정적인 구조 설계의 필요성**을 배우게 되었습니다.
-
----
-
-## 📫 Contact
+## 연락처
 
 - Email: taemin9709@gmail.com
 - GitHub: [taemin1997](https://github.com/taemin1997)
-
----
-
-⭐ 꾸준히 학습하며 성장하는 백엔드 개발자가 되겠습니다.
