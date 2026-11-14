@@ -5,7 +5,7 @@
 - RAG 서비스의 데이터·백엔드를 맡고, 강화학습 실험을 직접 설계해 측정함
 - 판정 기준을 결과 보기 전에 정하고, 수치는 측정 조건과 함께 적음
 
-📁 **포트폴리오**: (GitHub Pages 주소) · [PDF 요약본](https://github.com/taemin1997/myPortfolio/blob/main/pdf/portfolio_summary.pdf)
+📁 **포트폴리오**: [taemin1997.github.io/myPortfolio](https://taemin1997.github.io/myPortfolio/) · [PDF 요약본](https://github.com/taemin1997/myPortfolio/blob/main/pdf/portfolio_summary.pdf)
 
 ## 대표 프로젝트
 
